@@ -1,0 +1,565 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box; 
+}
+
+html{
+    min-height: 100%;
+}
+body {
+    width: 100%;   
+   min-height: 100vh;
+ 
+}
+
+main {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    position: fixed;
+    z-index: 10;
+
+}
+
+/* BARRA DE NAVEGACION */
+.navbar {
+    width: 100%;
+}
+
+.navbar-brand>img {
+    width: 90px;
+    height: 100%;
+}
+
+.nav .nav-link {
+    color: #EFC2C0;
+}
+
+.nav .nav-link:hover {
+    color: #D90368;
+}
+
+.nav-pills .nav-link.active {
+    --bs-nav-pills-link-active-bg: #EFC2C0;
+    --bs-nav-pills-link-active-color: #D90368;
+} 
+
+
+/* SEGUNDO NAV NAVEGACION */
+.navegacion {
+    width: 100%;
+}
+
+
+/* EFECTO DE TEXTO  */
+.textoDDD {
+    color: #fff;
+    text-shadow: 2px 2px 0px rgb(245, 144, 199),
+        4px 4px 0px rgba(238, 112, 167, 0.849),
+        6px 6px 0px rgb(238, 42, 127);
+}
+
+/* EFECTO FIN */
+
+.navegacionHeaderDos {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-image: url(../images/Diseñosintítulo.png);
+        filter: brightness(85%);
+    background-size:cover;
+    background-repeat: no-repeat;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0px;
+    word-spacing: 60px;
+    color: white;
+    font-weight: 600;
+    font-style: normal;
+    font-variant: small-caps;
+    text-transform: none;
+    margin: 0;
+}
+
+
+.navegacionHeaderDos>a {
+    text-decoration: none;
+}
+
+a {
+    color: white;
+    --bs-link-color-rgb: 255, 248, 245;
+    --bs-link-hover-color-rgb: 239, 194, 192;
+}
+
+
+.navUpcoming::before {
+    position: absolute;
+    top: 25px;
+    left: -40px;
+    display: block;
+    box-sizing: border-box;
+    content: "¡Upcoming!";
+    text-transform: uppercase;
+    font-size: 13px;
+    text-align: center;
+    font-weight: 700;
+    color: #fff;
+    background: transparent;
+    height: 0;
+    width: 150px;
+    border: 25px solid transparent;
+    border-bottom: 25px solid #D90368;
+    line-height: 23px;
+    z-index: 20;
+    transform: rotate(-45deg);
+}
+
+.navPast::before {
+    position: absolute;
+    top: 25px;
+    left: -40px;
+    display: block;
+    box-sizing: border-box;
+    content: "¡Past!";
+    text-transform: uppercase;
+    font-size: 13px;
+    text-align: center;
+    font-weight: 700;
+    color: #fff;
+    background: transparent;
+    height: 0;
+    width: 150px;
+    border: 25px solid transparent;
+    border-bottom: 25px solid #D90368;
+    line-height: 23px;
+    z-index: 20;
+    transform: rotate(-45deg);
+}
+
+/* FILTROS DE CATEGORIA */
+.navbar-main {
+    width: 98%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: .9em;
+    margin-bottom: 30px;
+}
+#check{
+    width: 75%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    column-gap: 7px;
+}
+.navbar-main form{
+    width: 25%;
+}
+
+/* ESTILOS DE LAS CARTAS */
+.grupo {
+    width: 90%;
+    height: auto;
+    margin-bottom: 3%;
+   
+}
+
+.card{
+    width: 300px;
+    height: 300px;
+    text-align: justify;
+    border: 2px solid #e71a7a9a;
+    box-shadow: 7px -8px 9px -6px rgba(0, 0, 0, 0.986);
+}
+.row{
+    --bs-gutter-y: 1.5rem !important;
+    justify-content: center;
+}
+.card-body{
+    height: 40%;
+}
+.card-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    --bs-card-cap-bg: #212529;
+    height: 15%;
+}
+
+.card-footer .btn-outline-light {
+    --bs-btn-hover-color: #EFC2C0;
+    --bs-btn-hover-bg: #e7026de7;
+    --bs-btn-hover-border-color:#D90368;
+}
+
+.card img{
+    height: 45%;
+    width:100%;
+    border-radius: 3px 3px 0px 0px;
+}
+
+/* ESTILO DEL FOOTER DE LA PAGINA */
+footer {
+    height: 50px;
+    width: 100%;
+    display: flex !important;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+}
+
+.footer-content {
+    width: 100%;
+    height: 100%;
+    display: flex !important;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10%;
+}
+
+.redes {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 3%;
+    font-size: 1.3em;
+    color: #D90368;
+}
+
+.favicon {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 1.1em;
+}
+
+.favicon>img {
+    margin-left: 5px;
+    width: 40px;
+}
+.aviso{
+    font-size: 2.5em;
+    color: #212529a1;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+/* ESTILOS DEL FORMULARIO */
+.formulario {
+    width: 40%;
+    height: 500px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    margin-left: 30%;
+    margin-right: 30%;
+    border-radius: 15px;
+    background-image: url(../images/fondoform.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.form {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 20px 35px;
+    color: white;
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.form-check-input {
+    --bs-border-color: #5BBA6F;
+}
+
+.form-check-input:checked {
+    border-color: #5BBA6F !important;
+    background-color: #157347 !important;
+}
+
+.formulario .mb-3 .form-header .form-tittle {
+    font-weight: bold;
+    font-family: sans-serif;
+    color: #D90368;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.formulario .mb-3 .form-header .form-tittle span {
+    color: white;
+}
+
+.formulario .mb-3 .form-label {
+    color: #EFC2C0;
+    font-weight: bold;
+    font-size: 1em;
+    margin-bottom: 0;
+    margin-top: 0.5rem;
+}
+
+.formulario .mb-3 .form-control {
+    background-color: rgba(0, 0, 0, 0.7);
+    border: none;
+    border-bottom: 2px solid #D90368;
+    font-size: 1em;
+    color: white;
+}
+
+.formulario .mb-3 .btn-submit {
+
+
+    background-color: #d903679c;
+    border: none;
+    margin-top: 5px;
+
+    color: #fff;
+    cursor: pointer;
+    transition: all .5s ease;
+}
+
+.formulario .mb-3 .btn-submit:hover {
+    background-color: #D90368;
+
+}
+
+.favicon>p{
+    margin:0 !important;
+}
+/* ESTILOS DE LA PAGINA DE ESTADISTICAS */
+.estadisticas {
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 35px;
+}
+
+.td {
+    width: 32%;
+}
+colspan{
+    background-color: #212529;
+}
+table{
+    width: 96%;
+}
+
+@media screen and (max-width:280px) {
+    .navegacion{
+    display:none;}
+
+    .navbar-main{
+        display:none !important;
+    }
+    .navbar{
+        height: auto;
+    }
+    .grupo{
+        margin-top: 200px !important;
+    }
+    .card{
+        width: 210px;
+        box-shadow: 7px -8px 9px -6px rgba(0, 0, 0, 0.986);
+    }
+    .favicon {
+        font-size: 0.7em;
+        width: 50%;
+    }
+    .redes{
+        font-size: 0.9em;
+        width: 50%;
+    }
+    .card-footer .btn-outline-light {
+        --bs-btn-padding-x: 0.25rem;
+    --bs-btn-padding-y: 0.25rem;
+    }
+    footer{
+        visibility: hidden;
+    }
+    .formulario{
+        margin-top: 200px;
+        width: 90%;
+        height: auto;
+    }
+    .estadisticas{
+       visibility: hidden;
+    }
+
+}
+@media screen and (min-width:280.98px)  and (max-width:575.98px){
+    .navbar {
+        height: 130px;
+        
+    }
+    .navbar>.container{
+        justify-content: center !important;
+        padding: 0;
+    }
+    .navegacion{
+        margin-top:130px;
+        height: 150px;
+    }
+    .navegacionHeaderDos{
+        font-weight: 300;
+    }
+    .contenedorTextoDDD{
+        display:flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        text-align: center;
+    }
+    .navUpcoming::before {
+    top: 140px;}
+    .navPast::before {
+        top: 140px;
+    }
+    .navbar-main {
+        width: 100%;
+        margin-bottom: 70px;
+    }
+    .navegacionHeaderDos{
+        font-size: 2em;
+    }
+    
+    #check{
+        width: 100%;
+        column-gap: 12px;
+       
+    }
+    .navbar-main form{
+        width: 75%;
+        margin-left: 12%;
+        margin-top: 20px;
+    }
+    .favicon {
+        font-size: 0.8em;
+        width: 50%;
+    }
+    .redes{
+        font-size: 1em;
+        width: 50%;
+    }
+    .formulario{
+        width: 90%;
+        height: auto;
+    }
+}
+
+@media screen and (min-width:576px) and (max-width: 991.98px){
+    .navbar {
+        height: 100px;
+    }
+    .navbar>.container{
+        justify-content: center !important;
+        padding: 0;
+    }
+    .navegacion{
+        margin-top:100px;
+        height: 200px;
+    }
+    .navegacionHeaderDos{
+        font-size: 2.2em;
+    }
+    .navUpcoming::before {
+    top: 110px;}
+    .navPast::before {
+        top: 110px;
+    }
+    #check{
+        width: 65%;
+    }
+    .navbar-main form{
+        width: 35%;
+      
+    }
+   .container, .container-sm{
+        max-width: 98% !important;
+    }
+    .container, .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+       padding: 0 !important;
+        --bs-gutter-x: 1rem !important;
+}
+.formulario{
+    width: 60%;
+   
+}}
+    
+@media screen and (min-width:992px)and (max-width: 1380px){
+    .navbar {
+        height: 60px;
+    }
+    .navegacion {
+        height: 250px;
+        margin-top: 60px;
+    }
+    .navegacionHeaderDos{
+        font-size: 3em;
+    }
+    .navUpcoming::before {
+    top: 70px;}
+    .navPast::before {
+        top: 70px;
+    }
+    
+
+}
+
+@media screen and (min-width:1381px){
+    .navbar {
+        height: 70px;
+    }
+    .navegacion {
+        height: 250px;
+        margin-top: 70px;
+    }
+    .navegacionHeaderDos{
+        font-size: 3.2em;
+    }
+    .navegacionHeaderDos{
+        font-size: 3em;
+    }
+    .navUpcoming::before {
+    top: 80px;}
+    .navPast::before {
+        top: 80px;
+    }
+}
+

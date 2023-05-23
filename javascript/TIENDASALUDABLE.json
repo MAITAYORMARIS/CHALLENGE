@@ -1,0 +1,151 @@
+{
+  "productos": [
+    // LUCIANO
+    {
+      "id": 1,
+      "imagen":"",
+      "nombre": "",
+      "descripcion": "",
+      "categoria":"",
+      "precio": 5,
+      "presentacion":""
+    },
+    {
+      "id": 2,
+      "imagen":"",
+      "nombre": "",
+      "descripcion": "",
+      "categoria":"",
+      "precio": 5,
+      "presentacion":""
+    },
+    {
+      "id": 3,
+      "imagen":"",
+      "nombre": "",
+      "descripcion": "",
+      "categoria":"",
+      "precio": 5,
+      "presentacion":""
+    },
+    {
+      "id": 4,
+      "imagen":"",
+      "nombre": "",
+      "descripcion": "",
+      "categoria":"",
+      "precio": 5,
+      "presentacion":""
+    },
+    // YENDAR
+    {
+      "id": 5,
+      "imagen":"",
+      "nombre": "",
+      "descripcion": "",
+      "categoria":"",
+      "precio": 5,
+      "presentacion":""
+    },
+    {
+      "id": 6,
+      "imagen":"",
+      "nombre": "",
+      "descripcion": "",
+      "categoria":"",
+      "precio": 5,
+      "presentacion":""
+    },
+    {
+      "id": 7,
+      "imagen":"",
+      "nombre": "",
+      "descripcion": "",
+      "categoria":"",
+      "precio": 5,
+      "presentacion":""
+    },
+    {
+      "id": 8,
+      "imagen":"",
+      "nombre": "",
+      "descripcion": "",
+      "categoria":"",
+      "precio": 5,
+      "presentacion":""
+    },
+    // CAROLINA
+    {
+      "id": 9,
+      "imagen":"",
+      "nombre": "",
+      "descripcion": "",
+      "categoria":"",
+      "precio": 5,
+      "presentacion":""
+    },
+    {
+      "id": 10,
+      "imagen":"",
+      "nombre": "",
+      "descripcion": "",
+      "categoria":"",
+      "precio": 5,
+      "presentacion":""
+    },
+    {
+      "id": 11,
+      "imagen":"",
+      "nombre": "",
+      "descripcion": "",
+      "categoria":"",
+      "precio": 5,
+      "presentacion":""
+    },
+    {
+      "id": 12,
+      "imagen":"",
+      "nombre": "",
+      "descripcion": "",
+      "categoria":"",
+      "precio": 5,
+      "presentacion":""
+    },
+    // YORMARIS
+    {
+      "id": 13,
+      "imagen":"",
+      "nombre": "",
+      "descripcion": "",
+      "categoria":"",
+      "precio": 5,
+      "presentacion":""
+    },
+    {
+      "id": 14,
+      "imagen":"",
+      "nombre": "",
+      "descripcion": "",
+      "categoria":"",
+      "precio": 5,
+      "presentacion":""
+    },
+    {
+      "id": 15,
+      "imagen":"",
+      "nombre": "",
+      "descripcion": "",
+      "categoria":"",
+      "precio": 5,
+      "presentacion":""
+    },
+    {
+      "id": 16,
+      "imagen":"",
+      "nombre": "",
+      "descripcion": "",
+      "categoria":"",
+      "precio": 5,
+      "presentacion":""
+    }]}
+    
