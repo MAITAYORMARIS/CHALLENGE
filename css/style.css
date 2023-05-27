@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700&family=Raleway:wght@600&display=swap');
+
+* {
+    font-family: 'Raleway', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+/* BODY */
+
+/* HEADER */
+
+.img1 {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    align-items: center;
+}
+
+.img2 {
+    display: none;
+}
+
+header {
+    position: relative;
+    width: 100%;
+    z-index: 1000;
+    background-color: rgb(154, 187, 191);
+	margin-bottom: 24px;
+}
+
+nav {
+    height: 110px;
+    width: 100%;
+    position: absolute;
+}
+
+nav ul li {
+    border-radius: 5px;
+}
+
+nav ul li :hover {
+    border-radius: 5px;
+    background-color: #0097b2;
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+.botonColor {
+    border-color: white;
+}
+
+.navbar-toggler-icon {
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(180deg);
+  }
+
+  .custom-menu {
+	background-color: rgb(154, 187, 191) !important;
+  }
+  
+  .custom-menu .nav-link {
+	color: white /* Cambia el color del texto en el menú */
+  }
+
+/* MAIN */
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#carouselExampleFade {
+	width: 100%; 
+	margin-bottom: 20PX;
+  }
+
+/* FOOTER */
+
+.pequenioEspacio {
+    padding: 6px 0 6px 0;
+}
+
+footer {
+    background-color: rgb(154, 187, 191);
+    position: relative;
+	margin-top: 24px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media(max-width:991px) {
+
+    #alineado {
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+    }
+
+	#carouselExampleFade {
+		width: 100%; 
+	  }
+
+    .img1 {
+        display: none;
+    }
+
+    .img2 {
+        display: block;
+    }
+
+    nav ul li {
+        background-color: rgb(154, 187, 191);
+    }
+
+	nav ul li :hover {
+		background-color: transparent;
+		padding: 10px;
+	}
+
+    .estiloA {
+        padding: 0 47px 0 47px;
+        margin: 6px 0 6px 0;
+    }
+
+    .estiloB {
+        padding: 0 18px 0 18px;
+    }
+
+    .estiloC {
+        padding: 0 10.5px 0 10.5px;
+        margin: 6px 0 6px 0;
+    }
+
+    .estiloD {
+        padding: 0 4.8px 0 4.8px;
+    }
+
+    .estiloE {
+        padding: 0 43px 0 43px;
+        margin: 6px 0 6px 0;
+    }
+
+	.estiloF {
+        padding: 0 28.5px 0 28.5px;
+    }
+}
+
+@media(min-width:992px) {
+
+    #alineado {
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        align-items: center;
+    }
+}
