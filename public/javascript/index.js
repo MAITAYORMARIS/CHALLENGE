@@ -55,9 +55,17 @@ function navegacion(id) {
     switch (id) {
         case "alimentosOrganicos":
             imprimir(alimentosOrganicos)
+            document.getElementById("tituloSec").innerHTML="ALIMENTOS ORGANICOS"
+            document.getElementById("seccionProductos").style.display = "flex"
+            document.getElementById("carouselExampleFade").style.display="none"
+            document.getElementById("mapau").style.display="none"
             break;
         case "productosSinLactosa":
             imprimir(productosSinLactosa)
+            document.getElementById("tituloSec").innerHTML="PRODUCTOS SIN LACTOSA"
+            document.getElementById("seccionProductos").style.display = "flex"
+            document.getElementById("carouselExampleFade").style.display="none"
+            document.getElementById("mapau").style.display="none"
             break;
         case "suplementosNaturales":
             imprimir(suplementosNaturales)
@@ -68,9 +76,15 @@ function navegacion(id) {
             break;
         case "hogar":
             imprimir(hogar)
+            document.getElementById("tituloSec").innerHTML="HOGAR"
+            document.getElementById("seccionProductos").style.display = "flex"
+            document.getElementById("carouselExampleFade").style.display="none"
+            document.getElementById("mapau").style.display="none"
             break;
         case "contact":
             console.log("form de contactos")
+            document.getElementById("carouselExampleFade").style.display="none"
+            document.getElementById("mapau").style.display="none"
             break;
         default:
             document.getElementById("carouselExampleFade").style.display = "flex"
