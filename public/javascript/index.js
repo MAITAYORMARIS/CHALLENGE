@@ -1,6 +1,5 @@
 const coleccionProductos = firebase.firestore().collection("productos");
 
-let productos = []
 let dataProductos = []
 let suplementosNaturales = []
 let hogar = []
@@ -59,6 +58,7 @@ function navegacion(id) {
             document.getElementById("seccionProductos").style.display = "flex"
             document.getElementById("carouselExampleFade").style.display="none"
             document.getElementById("mapau").style.display="none"
+            document.getElementById("detalleProducto").style.display="none"
             break;
         case "productosSinLactosa":
             imprimir(productosSinLactosa)
@@ -66,6 +66,7 @@ function navegacion(id) {
             document.getElementById("seccionProductos").style.display = "flex"
             document.getElementById("carouselExampleFade").style.display="none"
             document.getElementById("mapau").style.display="none"
+            document.getElementById("detalleProducto").style.display="none"
             break;
         case "suplementosNaturales":
             imprimir(suplementosNaturales)
@@ -73,6 +74,7 @@ function navegacion(id) {
             document.getElementById("carouselExampleFade").style.display="none"
             document.getElementById("mapau").style.display="none"
             document.getElementById("tituloSec").innerHTML="SUPLEMENTOS NATURALES"
+            document.getElementById("detalleProducto").style.display="none"
             break;
         case "hogar":
             imprimir(hogar)
@@ -80,16 +82,19 @@ function navegacion(id) {
             document.getElementById("seccionProductos").style.display = "flex"
             document.getElementById("carouselExampleFade").style.display="none"
             document.getElementById("mapau").style.display="none"
+            document.getElementById("detalleProducto").style.display="none"
             break;
         case "contact":
             console.log("form de contactos")
             document.getElementById("carouselExampleFade").style.display="none"
             document.getElementById("mapau").style.display="none"
+            document.getElementById("detalleProducto").style.display="none"
             break;
         default:
             document.getElementById("carouselExampleFade").style.display = "flex"
             document.getElementById("mapau").style.display="flex"
             document.getElementById("seccionProductos").style.display = "none"
+            document.getElementById("detalleProducto").style.display="none"
     }
 }
 
@@ -138,6 +143,6 @@ function imprimir(array) {
 function compras(){
     console.log("llame a la funcion compras")
 }
-function imprimirDetalle(id){
-    console.log("imprimo el detalle del id", id)
-}
+// function imprimirDetalle(id){
+//     console.log("imprimo el detalle del id", id)
+// }
