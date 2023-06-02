@@ -36,7 +36,7 @@
 
 .imageProducContent {
     width: 100%;
-    height: 60%;
+    height: 50%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -44,9 +44,9 @@
 }
 
 .imageProducContent>img {
-    max-width: 100%;
-    max-height: 100%;
-    -webkit-transition: all .5s ease;
+    min-width: 100%;
+    min-height: 100%;
+   transition: all .5s ease;
     /* Safari y Chrome */
     -moz-transition: all .5s ease;
     /* Firefox */
@@ -64,7 +64,7 @@
 transform:scale(1.15);
 }
 .bodyProducto {
-    height: 25%;
+    height: 35%;
     width: 100%;
     --bs-card-spacer-y: 0.5rem;
     --bs-card-spacer-x: 1rem;

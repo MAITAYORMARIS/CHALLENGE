@@ -57,10 +57,10 @@ function imprimirDetalle(id) {
     document.getElementById("seccionProductos").style.display="none"
     
     
-    // var botonCompra = document.getElementsByClassName("btnShop")
-    // botonCompra.addEventListener("click", function (e) {
-    //     compras()
+    var botonCompra = document.getElementsByClassName("btnShop")
+    botonCompra.addEventListener("click", function (e) {
+        compras()
 
-    // })
+    })
 }
 

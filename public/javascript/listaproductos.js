@@ -123,4 +123,127 @@ const suplementosNaturales = {
     }
     
   ],
-};
+},
+const alimentosOrganicos = {
+  suplementos: [
+    {
+      id: 11,
+      image: "",
+      name: "Mix de Frutos Secos Premium",
+      description:
+        "Los frutos secos son un elemento fundamental dentro de la Dieta Mediterránea. Destacan por su alto contenido energético, así como por su aporte de proteínas, fibra, minerales y vitaminas como la vitamina E. Armalo a tu gusto, con frutos secos de primera calidad: Almendras, Nueces, Castañas de Caju, Mani, Pasas Negras y Pasas Rubias. Arma tu Mix a tu gusto",
+      category: "Alimento Organico",
+      cantidad: "250 gr",
+      ingesta: "20 a 30 gramos por dia",
+      marca: "Artesanal",
+      price: 1250,
+    },
+    {
+      id: 12,
+      image: "",
+      name: "Frutas deshidratadas",
+      description:
+        "El contenido en nutrientes de las Frutas deshidratas es similar al de la fruta fresca, aunque con un contenido más concentrado de azúcar, vitaminas y  minerales. Arma tu Mix a tu gusto: arándanos,piña, kiwi, manzana, coco o mango",
+      category: "Alimento Organico",
+      cantidad: "250 gr",
+      ingesta: "1 racion diaria",
+      marca: "Artesanal",
+      price: 1220,
+    },
+    {
+      id: 13,
+      image: "",
+      name: "Granola",
+      description:
+        "Mezcla de nueces, copos de avena mezclados con miel y otros ingredientes naturales. Especial para todos tus desayunos y meriendas ",
+      category: "Alimento Organico",
+      cantidad: "300 gr",
+      ingesta: "100 gramos al dia",
+      marca: "Artesanal",
+      price: 850,
+    },
+    {
+      id: 14,
+      image: "",
+      name: "Avena en Hojuelas",
+      description:
+        "Rica en proteínas y antioxidantes, la avena aporta numerosos nutrientes a nuestro organismo. Rica en proteínas y antioxidantes, la avena aporta numerosos nutrientes a nuestro organismo y ayuda en la perdida de peso",
+      category: "Alimento Organico",
+      cantidad: "1 kg",
+      ingesta: "25 a 30 gramos al dia",
+      marca: "Artesanal",
+      price: 870,
+    },
+    {
+      id: 15,
+      image: "",
+      name: "Cereales",
+      description:
+        "Los cereales integrales aportan fibra, vitaminas, minerales y otros nutrientes. Elegi el sabor que mas te guste: maiz natural, maiz sabor a chocolate, frutas",
+      category: "Alimentos Organicos",
+      cantidad: "500 gr",
+      ingesta: "1/4 tazon al dia",
+      marca: "Artesanal",
+      price: 790,
+    },
+    {
+      id: 16,
+      image: "",
+      name: "Mermeladas sin azucar",
+      description:
+        "La mermelada artesanal te aporta energía, grasas y glucosa. Esto beneficia especialmente a las personas muy activas: deportistas, niños... ¡Los azúcares naturales deben estar presentes en nuestra dieta, y las mermeladas artesanales sin azúcar común son el complemento perfecto! Elegi tu sabor favorito: Frutilla, Frutos Rojos, Ciruela o Naranja",
+      category: "Alimentos Organicos",
+      cantidad: "390 gr",
+      ingesta: "2 cucharadas al dia",
+      marca: "Artesanal",
+      price: 2300,
+    },
+    {
+      id: 17,
+      image: "",
+      name: "Pasta de Mani",
+      description:
+        "Pasta elaborada con maníes secos, tostados y molidos. Una porción de mantequilla de maní te dará 3 mg de vitamina E, la cual es antioxidante. También obtienes 49 gramos de magnesio, que ayuda a los huesos y la recuperación de los músculosPasta elaborada con maníes secos, tostados y molidos. Una porción de mantequilla de maní te dará 3 mg de vitamina E, la cual es antioxidante. También obtienes 49 gramos de magnesio, que ayuda a los huesos y la recuperación de los músculos.",
+      category: "Alimento Organico",
+      cantidad: "510 gr",
+      ingesta: "2 cucharadas al dia",
+      marca: "Artesanal",
+      price: 1200,
+    },
+    {
+      id: 18,
+      image: "",
+      name: "Galletas de Arroz",
+      description:
+        "Crocantes galletitas elaboradas con arroz integral. Ideales para untar, acompañar una comida o como snack. Disfruta de tus comidas de una manera natural, sin conservantes ni aditivos, y sin gluten.",
+      category: "Alimentos Organicos",
+      cantidad: "150 gr",
+      ingesta: "2 galletas diarias",
+      marca: "Artesanal",
+      price: 350,
+    },
+    {
+      id: 19,
+      image: "",
+      name: "Pack de Regalo Frutos Secos",
+      description:
+        "Especialmente armado para regalo, pack de frutos secos, frutas deshidratas, manies bañados en chocolate",
+      category: "Alimentos Organicos",
+      cantidad: "300 gr",
+      ingesta: "1 porcion dia",
+      marca: "Artesanal",
+      price: 2350,
+    },
+    {
+      id: 20,
+      image: "",
+      name: "Galletitas Integrales",
+      description:
+        "Línea de galletitas dulces sin azucar añadido",
+      category: "Alimentos Organicos",
+      cantidad: "200 gr",
+      ingesta: "1 porcion dia",
+      marca: "Artesanal",
+      price: 600,
+    },
+  ]}
