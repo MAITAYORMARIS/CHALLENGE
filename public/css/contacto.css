@@ -1,0 +1,84 @@
+#contacto{
+    justify-content: center;
+   
+}
+#formulario{
+    justify-content: center;
+    background: linear-gradient(45deg, #4842e5 0%, #00ff88 100%);
+    border-radius: 2rem;
+    
+}
+.form_input{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 1rem;
+   margin: 0 1rem;
+}
+label{
+    color: white;
+    padding-right: 1rem;
+}
+.boton_form{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 2rem;
+}
+#enviar, #resetBtn{
+    padding: .5rem;
+    font-weight: bold;
+    border-radius: 2rem;
+    border: none;
+    color: white;
+}
+#enviar{
+    margin-right: 1rem;
+    background: #28a745;
+}
+#enviar:disabled, #enviar:disabled:hover{
+    background: #9ee6ad77;
+    cursor: pointer;
+}
+
+
+#resetBtn{
+    background: #dc3545;
+}
+#enviar:enabled, #resetBtn:hover{
+
+    box-shadow: 0px 0px 5px 3px rgba(253,242,242,0.75);
+-webkit-box-shadow: 0px 0px 5px 3px rgba(253,242,242,0.75);
+-moz-box-shadow: 0px 0px 5px 3px rgba(253,242,242,0.75);
+}
+#enviar:hover{
+    background: #36d25a;
+}
+#resetBtn:hover{
+    background: #f45060;
+}
+.alert{
+    margin: 1rem 2rem;
+}
+
+/* Estilos de alert */
+
+.custom-button {
+    background-color: rgb(255, 255, 255) !important;
+    border-radius: 10px !important;
+    height: 10% !important;
+    width: 30% !important;
+    font-size: 1.5rem !important;
+    color: #7e7c7d !important;
+  }
+
+.custom-container {
+    font-family: "Questrial", sans-serif !important;
+    color: white !important;
+  }
+
+.btnColor {
+    color: rgb(28, 27, 27) !important;
+  }
+.tituloAlert {  
+    color: floralwhite !important;
+  }

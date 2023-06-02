@@ -3,6 +3,7 @@
 function formulario() {
     var formulary;
     formulary = `
+
     <form action="" id="formulario" class="col-9 col-sm-6 p-3 p-sm-4">
       <div class="form_input">
           <label for="email"><i class="fa-solid fa-at"></i></label>
@@ -49,7 +50,6 @@ function formulario() {
     const date = document.getElementById("date");
     const mensaje = document.getElementById("comentario");
     const formularioContain = document.getElementById("formulario");
-  
     const btnEnviar = document.getElementById("enviar");
     const btnReset = document.getElementById("resetBtn");
     const resulEmail =
@@ -181,7 +181,7 @@ function formulario() {
         title: "Gracias por tu mesaje",
         icon: "success",
         iconColor: "white",
-        confirmButtonText: "Close",
+        confirmButtonText: "Confirmar",
         width: "60%",
         grow: "",
         background: "#2ecc71",
